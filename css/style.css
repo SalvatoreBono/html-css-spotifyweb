@@ -4,6 +4,101 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-top {
+    display: flex;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.nav-bar-left {
+    width: 300px;
+    overflow: auto;
+    flex-shrink: 0;
+    background-color: rgb(0, 0, 0);
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    line-height: 2rem;
+    color: rgb(116, 116, 116);
+}
+
+.content-main {
+    flex-grow: 1;
+}
+
+
+.top-main-bar {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(17, 19, 25);
+    position: fixed;
+    z-index: 100;
+}
+
+
+.content {
+    height: 100%;
+    flex-grow: 1;
+    overflow: auto;
+    background-color: rgb(27, 31, 39);
+}
+
+.container-bottom {
+    flex-shrink: 0;
+    height: 100px;
+    background-color: rgb(44, 44, 44);
+}
+
+.logo-lg {
+    width: 60%;
+}
+
+.padding-bottom-0-5rem {
+    padding-bottom: 0.5rem;
+}
+
+.padding-bottom-1rem {
+    padding-bottom: 1rem;
+}
+
+
+.padding-top-0-5rem {
+    padding-top: 0.5rem;
+}
+
+.padding-left-0-5rem {
+    padding-left: 0.5rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.ico-nav-left {
+    width: 30px;
+}
+
+.white {
+    color: white;
+}
+
+.ico-add-playlist {
+    font-size: 25px;
+    background-color: rgb(161, 161, 161);
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.align {
+    align-items: center;
 }
