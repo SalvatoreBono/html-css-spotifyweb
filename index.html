@@ -21,19 +21,19 @@
           <img class="logo-mobile" src="img/logo-small.svg" alt="" />
           <img class="logo-lg" src="img/logo.svg" alt="" />
         </div>
-        <div class="flex padding-top-0-5rem">
+        <div class="flex padding-top-0-5rem align">
           <img class="ico-nav-left" src="img/home.svg" alt="" />
           <h4 class="padding-left-0-5rem">Home</h4>
         </div>
-        <div class="flex padding-bottom-0-5rem padding-top-0-5rem">
+        <div class="flex padding-bottom-0-5rem padding-top-0-5rem align">
           <img class="ico-nav-left" src="img/search.svg" alt="" />
           <h4 class="padding-left-0-5rem">Cerca</h4>
         </div>
-        <div class="flex padding-bottom-1rem">
+        <div class="flex padding-bottom-1rem align">
           <img class="ico-nav-left" src="img/libreria.svg" alt="" />
           <h4 class="padding-left-0-5rem">La tua libreria</h4>
         </div>
-        <h4 class="white padding-bottom-0-5rem">PLAYLIST</h4>
+        <h4 class="white padding-bottom-0-5rem padding-top-0-5rem">PLAYLIST</h4>
         <div class="flex padding-bottom-1rem align">
           <div>
             <i
@@ -43,13 +43,13 @@
           </div>
           <h4 class="padding-left-0-5rem">Crea Playlist</h4>
         </div>
-        <h4 class="padding-bottom-0-5rem">Nome Playlist</h4>
-        <h4 class="padding-bottom-0-5rem">Nome Playlist</h4>
-        <h4 class="padding-bottom-0-5rem">Nome Playlist</h4>
-        <h4 class="padding-bottom-0-5rem">Nome Playlist</h4>
-        <h4 class="padding-bottom-0-5rem">Nome Playlist</h4>
-        <h4 class="padding-bottom-0-5rem">Nome Playlist</h4>
-        <h4 class="padding-bottom-0-5rem">Nome Playlist</h4>
+        <h4 class="padding-bottom-1rem">Nome Playlist</h4>
+        <h4 class="padding-bottom-1rem">Nome Playlist</h4>
+        <h4 class="padding-bottom-1rem">Nome Playlist</h4>
+        <h4 class="padding-bottom-1rem">Nome Playlist</h4>
+        <h4 class="padding-bottom-1rem">Nome Playlist</h4>
+        <h4 class="padding-bottom-1rem">Nome Playlist</h4>
+        <h4 class="padding-bottom-1rem">Nome Playlist</h4>
         <div class="bottom-nav-text padding-bottom-0-5rem">
           <div class="flex padding-bottom-0-5rem">
             <img class="ico-nav-left-bottom" src="img/download.svg" alt="" />
@@ -73,9 +73,18 @@
             <li><a href="#">IN EVIDENZA</a></li>
             <li><a href="#">PODCAST</a></li>
             <li><a href="#">CLASSIFICHE</a></li>
-            <li><a href="#"> GENERI E MOOD</a></li>
-            <li><a href="#">NUOVE USCITE</a></li>
-            <li><a href="#">SCOPRI</a></li>
+            <li id="text-block-mobile" class="none-text-dekstop">
+              <a href="#"> GENERI E MOOD</a>
+            </li>
+            <li class="none-text-dekstop"><a href="#">NUOVE USCITE</a></li>
+            <li class="none-text-dekstop"><a href="#">SCOPRI</a></li>
+          </ul>
+          <ul class="padding-top-3rem">
+            <li id="text-none-mobile" class="none-text-mobile">
+              <a href="#">GENERI E MOOD</a>
+            </li>
+            <li class="none-text-mobile"><a href="#"> NUOVE USCITE</a></li>
+            <li class="none-text-mobile"><a href="#">SCOPRI</a></li>
           </ul>
           <div class="row white">
             <h2 class="padding-bottom-1rem title-spotify">Recently played</h2>
@@ -163,6 +172,53 @@
         </div>
       </main>
     </div>
-    <div class="container-bottom"></div>
+    <div class="container-bottom flex space white align">
+      <div>
+        <div class="flex padding-top-0-5rem align">
+          <div class="flex align padding-right-1rem">
+            <img class="ico-bottom-left" src="img/sinister.jpeg" alt="" />
+            <h5 class="padding-left-1rem">
+              Sinister <br />
+              <span class="grey small-font">Brano Nome</span>
+            </h5>
+          </div>
+          <div>
+            <i class="fa-regular fa-heart grey padding-left-1rem"></i>
+            <i class="fa-regular fa-folder grey padding-left-1rem"></i>
+          </div>
+        </div>
+      </div>
+      <div class="font-big text-center">
+        <i class="fa-solid fa-shuffle padding-right-1rem"></i>
+        <i class="fa-solid fa-backward-step padding-right-1rem"></i>
+        <i class="fa-solid fa-circle-pause padding-right-1rem"></i>
+        <i class="fa-solid fa-forward-step padding-right-1rem"></i>
+        <i class="fa-solid fa-rotate-right"></i>
+        <br />
+        <span class="small-font padding-right-0-5rem">0.25</span>
+        <input
+          type="range"
+          min="1"
+          max="100"
+          value="50"
+          class="slider time-music"
+          id="myRange"
+        />
+        <span class="small-font padding-left-0-5rem">4:35</span>
+      </div>
+      <div class="text-end">
+        <i class="padding-left-1rem fa-solid fa-bars padding-right-1rem"></i>
+        <i class="fa-solid fa-desktop padding-right-1rem"></i>
+        <i class="fa-solid fa-volume-high padding-right-1rem"></i>
+        <input
+          type="range"
+          min="1"
+          max="100"
+          value="50"
+          class="slider volume"
+          id="myRange"
+        />
+      </div>
+    </div>
   </body>
 </html>

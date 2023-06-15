@@ -27,7 +27,6 @@ body {
     padding-top: 1.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    line-height: 2rem;
     color: rgb(116, 116, 116);
     position: relative;
 }
@@ -61,6 +60,10 @@ body {
 .container-bottom {
     flex-shrink: 0;
     background-color: rgb(44, 44, 44);
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .logo-lg {
@@ -157,6 +160,7 @@ body {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     position: fixed;
+    font-weight: bold;
     top: 0;
     right: 0;
 }
@@ -208,6 +212,102 @@ ul li a {
     border-radius: 50%;
 }
 
+.none-text-mobile {
+    display: none;
+}
+
+.padding-top-3rem {
+    padding-top: 3rem;
+}
+
+.ico-bottom-left {
+    width: 50px;
+}
+
+.small-font {
+    font-size: 12px;
+}
+
+.padding-left-1rem {
+    padding-left: 1rem;
+}
+
+.padding-right-1rem {
+    padding-right: 1rem;
+}
+
+.space {
+    justify-content: space-between;
+}
+
+.font-big {
+    font-size: 30px;
+}
+
+.time-music {
+    width: 500px;
+}
+
+.padding-right-0-5rem {
+    padding-right: 0.5rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .card-structure {
+        width: calc(100% / 4 - 20px);
+        margin: 10px;
+    }
+
+    .time-music {
+        width: 370px;
+    }
+}
+
+.text-end {
+    text-align: end;
+}
+
+@media screen and (max-width: 700px) {
+    .card-structure {
+        width: calc(100% / 2 - 20px);
+        margin: 10px;
+    }
+
+    .none-text-dekstop {
+        display: none;
+    }
+
+    .none-text-mobile {
+        display: block;
+    }
+
+    .content-main {
+        overflow-x: hidden;
+    }
+
+    .no-flex {
+        display: block;
+    }
+
+    .padding-top-3rem {
+        padding-top: 3rem;
+    }
+
+    .time-music {
+        width: 60%
+    }
+
+    .font-big {
+        font-size: 25px;
+    }
+
+    .volume {
+        width: 35%;
+    }
+
+}
+
+
 @media screen and (max-width: 600px) {
 
     .nav-bar-left h4,
@@ -231,4 +331,13 @@ ul li a {
     .nav-bar-left {
         width: calc(100px - 1.5rem)
     }
+
+    #text-none-mobile {
+        display: none;
+    }
+
+    #text-block-mobile {
+        display: block;
+    }
+
 }
