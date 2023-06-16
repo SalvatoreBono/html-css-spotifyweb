@@ -328,11 +328,11 @@ h4 {
 
 }
 
-.time-music-customization:hover {
+.time-music:hover .time-music-customization {
     background-color: rgb(185, 244, 82);
 }
 
-.time-music:hover .btn-music {
+.btn-music {
     width: 20px;
     height: 20px;
     position: absolute;
@@ -340,6 +340,11 @@ h4 {
     right: 0;
     border-radius: 50%;
     background-color: white;
+    display: none;
+}
+
+.time-music:hover .btn-music {
+    display: block;
 }
 
 .padding-right-0-5rem {
