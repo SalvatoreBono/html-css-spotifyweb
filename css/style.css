@@ -28,7 +28,6 @@ body {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     color: rgb(116, 116, 116);
-    position: relative;
 }
 
 .content-main {
@@ -125,9 +124,9 @@ body {
     width: 20px;
 }
 
-.bottom-nav-text {
-    position: absolute;
-    bottom: 0;
+.column {
+    flex-direction: column;
+    overflow: auto;
 }
 
 .img-profile-container {
