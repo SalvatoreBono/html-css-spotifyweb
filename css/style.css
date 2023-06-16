@@ -152,7 +152,7 @@ body {
     background-color: black;
     color: white;
     margin-top: 1.5rem;
-    margin-right: 0.5rem;
+    margin-right: 2rem;
     border-radius: 25px;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
@@ -203,6 +203,33 @@ ul li a {
     width: 100%;
 }
 
+.pause-img {
+    position: relative;
+}
+
+.pause-music {
+    font-size: 80px;
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-structure:hover .pause-music {
+    display: block;
+}
+
+.content ul li a:hover,
+h4:hover {
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .grey {
     color: rgb(123, 125, 130);
 }
@@ -250,6 +277,7 @@ ul li a {
 .padding-right-0-5rem {
     padding-right: 0.5rem;
 }
+
 
 @media screen and (max-width: 1100px) {
     .card-structure {
