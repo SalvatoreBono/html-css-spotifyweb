@@ -362,6 +362,10 @@ h4 {
     max-width: 100%;
 }
 
+.time-music {
+    width: 350px;
+}
+
 .volume-right {
     width: 150px;
 }
