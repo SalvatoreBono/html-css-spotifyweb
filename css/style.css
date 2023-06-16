@@ -25,7 +25,6 @@ body {
     flex-shrink: 0;
     background-color: rgb(0, 0, 0);
     padding-top: 1.5rem;
-    padding-left: 1.5rem;
     padding-right: 1.5rem;
     color: rgb(116, 116, 116);
 }
@@ -223,6 +222,24 @@ ul li a {
 .content ul li a:hover,
 h4:hover {
     color: white;
+}
+
+.bottom-line-green {
+    margin: 0.5rem auto;
+    width: 40px;
+    border: 2px solid rgb(169, 255, 57);
+}
+
+.left-line-green {
+    height: 40px;
+    border-left: 3px solid rgb(169, 255, 57);
+}
+
+i,
+img,
+.account,
+h4 {
+    cursor: pointer;
 }
 
 .btn:hover {
