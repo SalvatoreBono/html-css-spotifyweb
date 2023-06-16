@@ -228,8 +228,15 @@ ul li a {
 }
 
 .content ul li a:hover,
-h4:hover {
+h4:hover,
+.container-bottom-left i:hover {
     color: white;
+}
+
+.album-name:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .bottom-line-green {
@@ -250,9 +257,17 @@ h4 {
     cursor: pointer;
 }
 
+.ico-add-playlist:hover {
+    background-color: white;
+}
+
 .btn:hover {
     cursor: pointer;
     transform: scale(1.1);
+}
+
+.play-btn:hover {
+    transform: scale(1.2);
 }
 
 .grey {
@@ -364,12 +379,16 @@ h4 {
         width: 60%
     }
 
+    .column-bottom-left {
+        flex-direction: column;
+    }
+
     .font-big {
-        font-size: 25px;
+        font-size: 23px;
     }
 
     .volume {
-        width: 35%;
+        width: 25%;
     }
 
 }
@@ -407,4 +426,15 @@ h4 {
         display: block;
     }
 
+    .container-bottom-left {
+        width: 150px;
+    }
+
+    .container-bottom-right {
+        width: 200px;
+    }
+
+    .container-bottom-mid {
+        padding-left: 2rem;
+    }
 }
