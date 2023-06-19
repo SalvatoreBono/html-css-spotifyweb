@@ -31,6 +31,7 @@ body {
 
 .content-main {
     flex-grow: 1;
+    overflow: auto;
 }
 
 
@@ -171,6 +172,8 @@ ul {
     display: flex;
     list-style: none;
     justify-content: center;
+    white-space: nowrap;
+    flex-wrap: wrap;
 }
 
 ul li a {
@@ -394,7 +397,7 @@ h4 {
     text-align: end;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 940px) {
     .card-structure {
         width: calc(100% / 2 - 20px);
         margin: 10px;
@@ -439,9 +442,7 @@ h4 {
     .volume-right {
         width: 20%;
     }
-
 }
-
 
 @media screen and (max-width: 600px) {
 
