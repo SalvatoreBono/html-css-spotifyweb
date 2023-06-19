@@ -359,11 +359,11 @@ h4 {
 }
 
 .container-bottom-left {
-    width: 225px;
+    max-width: 225px;
 }
 
 .container-bottom-right {
-    width: 300px;
+    max-width: 300px;
 }
 
 .container-bottom-mid {
@@ -403,14 +403,6 @@ h4 {
         margin: 10px;
     }
 
-    .none-text-dekstop {
-        display: none;
-    }
-
-    .none-text-mobile {
-        display: block;
-    }
-
     .content-main {
         overflow-x: hidden;
     }
@@ -436,7 +428,7 @@ h4 {
     }
 
     .container-bottom-right {
-        width: 200px;
+        width: 162px;
     }
 
     .volume-right {
